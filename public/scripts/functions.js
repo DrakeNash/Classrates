@@ -1,7 +1,7 @@
 function submitComment(commentControl) {
     var comments = document.getElementsByName(commentControl)[0].value;
-    var subscriptionKey = "ed9b46016e3945008bf5b4be9e2035b1";
-    var url = "https://brazilsouth.api.cognitive.microsoft.com/text/analytics/v2.0";
+    var subscriptionKey = "fd64f35a62854758b23ab4b962c4ce9c";
+    var url = "https://centralus.api.cognitive.microsoft.com/text/analytics/v2.0";
 
     var payload = '{ "documents": [ { "language": "es-ES", "id": "1", "text": "' + comments + '" }]}';
 
